@@ -23,4 +23,4 @@ In the section below there is a detailed explanation on how to build and run the
 - Compile all files with: `javac -cp ".:libs/*" src/*.java`.
 - We can run the Lisp parser with: `java -cp ".:libs/*:src" Main <your_file>`.
 - `<your_file>` here can be any suitable smt2 file, e.g. the `fuzz.smt2` file we just generated with the fuzzer.
-- Or we can test the file `inp.smt2` via: `java -cp ".:libs/*:src" Main inp.smt2`.
+- So, in order to see the parser in action, we can run `java -cp ".:libs/*:src" Main fuzz.smt2`
